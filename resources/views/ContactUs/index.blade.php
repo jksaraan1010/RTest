@@ -1,3 +1,6 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
 <table class="bannertablewhite" width="100%">
 	<tr>
@@ -10,7 +13,7 @@
 			</span>
 		</td>
 		<td width="10%" align="center">
-			<a href="home">Home</a>
+			<a href="/">Home</a>
 		</td>
         <td width="10%" align="center">
 			<a href="ContactUs">Contact Us</a>
@@ -29,19 +32,22 @@
 			<form action="ContactUsStore" method="post">
 
          {{ csrf_field() }}
-         <div class="form-group">
+         <form action="sendEmail" method="POST">
+         {{ csrf_field() }}
+         Name: <input type="text" class="form-control text-center" rows="10" cols="30" name="name"><br>
          <br></br>
+         Email: <input type="email" class="form-control text-center" name="email"><br>
          <br></br>
-
-         Name: <input type="text" class="form-control text-center" placeholder="Enter Name" name="name"><br>
-         <br></br>
-         Email: <input type="email" class="form-control text-center" placeholder="Enter Email" name="email"><br>
-         <br></br>
-          Message:<br></br>
+         <center> Message:<br></br>
           <textarea name="message"  rows="10" cols="30">
 				</textarea>
                 <br></br>
             <button type="submit" class="btn btn-primary btn-md" style="margin-left: 0px;margin: auto; display: block;"t>SEND</button>
+         </center>
+         <br></br>
+         <br></br>
+
+
          </div>
       </form>
 
@@ -51,3 +57,7 @@
 		</td>
 	</tr>
 </table>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+

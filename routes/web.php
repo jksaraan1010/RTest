@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Route::get('ContactUs', 'ContactUsController@index');
 Route::post('ContactUsStore', 'ContactUsController@store');
-
+Route::get('Email','MailContactUsController@index' );
+Route::post('sendEmail', 'MailContactUsController@send');
