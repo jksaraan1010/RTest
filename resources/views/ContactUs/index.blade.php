@@ -41,7 +41,7 @@
           <textarea name="message"  rows="10" cols="30">
 				</textarea>
                 <br></br>
-<button type="submit" class="btn btn-primary btn-md" style="margin-left: 0px;margin: auto; display: block;"t>SEND</button>
+            <button type="submit" class="btn btn-primary btn-md" style="margin-left: 0px;margin: auto; display: block;"t>SEND</button>
          </div>
       </form>
 
