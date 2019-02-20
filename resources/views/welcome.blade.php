@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="UTF-8">
-<title>Who Is Jasmine Saraan</title>
-<link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
-<script>
-function displayLoad() {
-    alert("Welcome User");
-}
-function displayExit() {
-    alert("Bye User");
-}
-</script>
-</head>
-<body onload="displayLoad()" onunload="displayExit()">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
 <table class="bannertablewhite" width="100%">
 	<tr>
-		<td >
-			<img class="imagedisplay" src="img/jp.jpg" alt="logo1" width = "200" height = "190">
+		<td width="20%">
+			<img class="imagedisplay" src="img/jp.JPG" alt="jp" width = "200" height = "190">
 		</td>
 		<td width="60%">
 			<span class="banner">
@@ -27,58 +13,73 @@ function displayExit() {
 			</span>
 		</td>
 		<td width="10%" align="center">
-			<a href="home">Home</a>
+			<a href="/">Home</a>
 		</td>
         <td width="10%" align="center">
 			<a href="ContactUs">Contact Us</a>
 		</td>
 
+
 	</tr>
 </table>
 
-
-<br><br><br><br><br><br><br><br><br><br><br>
-<table class="tables" width="100%">
+<table class="tables" width="100%" border = 2>
 	<tr>
-		<td  background="img/background.GIF">
+		<td width="15%" background="img/background.GIF">
 			<br>
 		</td>
-		<td align="center" width="70%">
-			~ Welcome ~ <br></br>
+		<td align = "center" width="70%">
+
+        ~ Welcome ~ <br></br>
 			Let me tell you more about me.
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-<center><img src = "Image1.jpg"
-alt = "image1"
-width = "600" height = "300">
-</center>
-&nbsp &nbsp &nbsp &nbsp &nbsp
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
+         <br></br>
+
+        <p>
+       I am Jasmine Saraan. I am a Computer Science Graduate from Wayne State University. I have over 2 years of
+        experience in design and development of software applications, and 3 years of
+        experience in OOPs through internships and class projects.
+        Experienced in working on all phases of SDLC (analysis, design, coding,
+        testing, implementation and maintenance) and documentation. Attended several
+        seminars and participated in Hackathon at Wayne State University. I also did an
+        internship at Assembly Line Technologies. Responsibilities included:
+        Update and make websites, collaborated within an Agile team structure where
+        they will assist with developing code using such technologies as: Java, Spring,
+        JavaScript, WordPress, MySQL. Worked with web debugging tools (Firebug or Chrome
+        Developer Console). Develop front-end web application using HTML/CSS and
+        JavaScript. Specification/wireframes were provided.
+
+        </p>
+
+         <br></br>
+
+
 		</td>
-		<td background="img/background.GIF">
+		<td width="15%" background="img/background.GIF">
 			<br>
 		</td>
+
 	</tr>
 </table>
-
-<br>
-
 <table width="100%">
 	<tr class="tables">
 		<td width="100%">
 			<span class="footer">
+            <br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+
 				<i> <center>Copyright &copy; 2019 Jasmine Saraan</a></i></center>
 			</span>
 		</td>
 	</tr>
 </table>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 
-</br>
-</body>
-</html>

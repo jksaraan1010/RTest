@@ -33,17 +33,20 @@
 
          {{ csrf_field() }}
          <form action="sendEmail" method="POST">
-         {{ csrf_field() }}
-         Name: <input type="text" class="form-control text-center" rows="10" cols="30" name="name"><br>
+         <div class="form-group">
          <br></br>
-         Email: <input type="email" class="form-control text-center" name="email"><br>
          <br></br>
-         <center> Message:<br></br>
-          <textarea name="message"  rows="10" cols="30">
+
+         Name <input type="text" class="form-control text-center" placeholder="Enter Name" name="name"><br>
+         <br></br>
+        Email <input type="email" class="form-control text-center" placeholder="Enter Email" name="email"><br>
+         <br></br>
+         <center>
+        Message <br><textarea name="message"  rows="10" cols="30">
 				</textarea>
                 <br></br>
+        </center>
             <button type="submit" class="btn btn-primary btn-md" style="margin-left: 0px;margin: auto; display: block;"t>SEND</button>
-         </center>
          <br></br>
          <br></br>
 
@@ -54,6 +57,15 @@
 		</td>
 		<td width="15%" background="img/background.GIF">
 			<br>
+		</td>
+	</tr>
+</table>
+<table width="100%">
+	<tr class="tables">
+		<td width="100%">
+			<span class="footer">
+				<i> <center>Copyright &copy; 2019 Jasmine Saraan</a></i></center>
+			</span>
 		</td>
 	</tr>
 </table>
