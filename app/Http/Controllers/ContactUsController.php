@@ -29,6 +29,7 @@ class ContactUsController extends Controller
 
         //redirect
 
+
     }
 
 
@@ -50,13 +51,7 @@ class ContactUsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
-        $docinfo = DocInfo::find($id);
 
-
-        return view('userProfile.edit')->with('docinfo', $docinfo);
-    }
 
 
 

@@ -31,6 +31,6 @@ class MailContactUsController extends Controller
         //below is verification that email has been sent out
 
         return redirect()->back()->with('success', 'Email sent successfully.
-        Check your email.');
+          Check your email.');
         }
 }

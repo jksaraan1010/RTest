@@ -9,6 +9,9 @@
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
+body{
+    background-color:#B6B6B4;
+}
 </style>
 <body>
 

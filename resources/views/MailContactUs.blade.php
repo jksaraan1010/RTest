@@ -33,20 +33,19 @@
       @endforeach
       @endif
       <form action="sendEmail" method="POST">
-         {{ csrf_field() }}
          <div class="form-group">
-         Name: <input type="text" class="form-control text-center" placeholder="Enter Name" name="name"><br>
-         <br></br>
-         Email: <input type="email" class="form-control text-center" placeholder="Enter Email" name="email"><br>
-         <br></br>
-         <center> Message:<br></br>
-          <textarea name="message"  rows="10" cols="30">
-				</textarea>
-                <br></br>
-            <button type="submit" class="btn btn-primary btn-md" style="margin-left: 0px;margin: auto; display: block;"t>SEND</button>
-         </center>
-         </div>
-      </form>
+         <br>
+          <div class="w3-row-padding" style="margin:0 -16px 10px -16px">
+            <div class="w3-half">
+            Name <input type="text" class="form-control text-left" placeholder="Enter Name" name="name" ><br>
+            </div>
+            <div class="w3-half">
+            Email *<input type="email" class="form-control text-left" placeholder="Enter Email" name="email" required><br>
+            </div>
+          </div>
+          Message <input class="w3-input w3-border" type="text" placeholder="Message"  name="message">
+          <button class="w3-button w3-black w3-section w3-left" type="submit">SEND</button>
+        </form>
    </div>
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <!-- Bootstrap core JavaScript -->
