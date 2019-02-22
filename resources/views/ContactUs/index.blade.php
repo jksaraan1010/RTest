@@ -66,7 +66,7 @@ body{
 
       <div class="w3-second">
 
-        <form action="Thanks" method="post" target="_blank"><br>
+        <form action=ContactUsStore method="post" target="_blank"><br>
          {{ csrf_field() }}
          <form action="sendEmail" method="POST">
          <div class="form-group">

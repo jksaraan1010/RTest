@@ -28,6 +28,7 @@ class ContactUsController extends Controller
         $userInfo->save();
 
         //redirect
+        return view('ThankYou');
 
 
     }
