@@ -12,6 +12,19 @@ body {font-family: "Lato", sans-serif}
 body{
     background-color:#B6B6B4;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
 </style>
 <body>
 
@@ -38,20 +51,25 @@ body{
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-  <!-- The Band Section -->
-  <div class="w3-container w3-content w3-left w3-padding-64" style="max-width:800px" id="jasmine">
-  <div class="w3-container w3-content w3-padding-54" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-left">~Contact Jasmine ~ </h2><br><br><br>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> 25951 Creek Crossing, Novi, MI, 48375<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: 248-225-8709<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: jasminesaraan@gmail.com<br>
+  <div class="w3-container w3-grey">
+  <h1>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Contact Jasmine</h1>
+  <h3>&nbsp; &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; Have Questions?</h3>
+</div>
+<br><br><br>
+<div class="w3-row-padding">
+<br><br>
+  <div class="w3-third">
+  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<i class="fa fa-map-marker" style="width:30px"></i> Address: 25951 Creek Crossing, Novi, MI, 48375<br><br>
+  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;     <i class="fa fa-phone" style="width:30px"></i> Phone: 248-225-8709<br><br>
+  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;     <i class="fa fa-envelope" style="width:30px"> </i> Email: jasminesaraan@gmail.com<br><br>
+  <h3>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;I have gotten your information. <br></h3>
+  <h3>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;I will get in contact with you soon... <br></h3>
 
-      </div>
+        </div>
+<br><br>
 
-      <div class="w3-col m7">
-      <p style="font-size:25px; font-weight:bold; font-style:italic;">Thanks for contacting me. I will get back to you soon... </p>
-      </div>
-    </div>
+
   </div>
+  </div>
+
+</table>

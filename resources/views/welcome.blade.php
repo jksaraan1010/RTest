@@ -38,10 +38,34 @@ body{
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
+  <div class="w3-content w3-section" style="max-width:2000px">
+  <img class="mySlides" src="img/conc.JPG" style="width:100%">
+  <img class="mySlides" src="img/new.JPG" style="width:100%">
+  <img class="mySlides" src="img/all.JPG" style="width:100%">
+  <img class="mySlides" src="img/super.JPG" style="width:100%">
+
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+  </div>
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide"> ~ Welcome ~ <br></br>
+ <h2 class="w3-wide"> ~ Welcome ~ <br></br>
 			</h2>
     <p class="w3-opacity"><h4>Let me tell you more about me.</h4></p>
     <p class="w3-justify">I am Jasmine Saraan. I am a Computer Science Graduate from Wayne State University. I have over 2 years of
@@ -110,19 +134,7 @@ body{
 
 	</tr>
 </table>
-<table width="100%">
-	<tr class="tables">
-		<td width="100%">
-			<span class="footer">
-            <br>
 
-            <br>
-
-				<i> <center>Copyright &copy; 2019 Jasmine Saraan</a></i></center>
-			</span>
-		</td>
-	</tr>
-</table>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <!-- Bootstrap core JavaScript -->
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>

@@ -12,6 +12,19 @@ body {font-family: "Lato", sans-serif}
 body{
     background-color:#B6B6B4;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
 </style>
 <body>
 
@@ -38,51 +51,49 @@ body{
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-  <!-- The Band Section -->
-  <div class="w3-container w3-content w3-left w3-padding-64" style="max-width:800px" id="jasmine">
-  <div class="w3-container w3-content w3-padding-54" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-left">~Contact Jasmine ~ </h2><br><br><br>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> 25951 Creek Crossing, Novi, MI, 48375<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: 248-225-8709<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: jasminesaraan@gmail.com<br>
-       <br> <i  style="width:30px"> </i> * Required<br>
+  <div class="w3-container w3-grey">
+  <h1>       &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; Contact Jasmine</h1>
+  <h3>&nbsp; &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; Have Questions?</h3>
+</div>
+<br><br><br>
+<div class="w3-row-padding">
+<br><br>
+  <div class="w3-third">
+  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<i class="fa fa-map-marker" style="width:30px"></i> Address: 25951 Creek Crossing, Novi, MI, 48375<br><br>
+  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;     <i class="fa fa-phone" style="width:30px"></i> Phone: 248-225-8709<br><br>
+  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;     <i class="fa fa-envelope" style="width:30px"> </i> Email: jasminesaraan@gmail.com<br><br>
+        </div>
 
-      </div>
+      <div class="w3-second">
 
-      <div class="w3-col m7">
         <form action="Thanks" method="post" target="_blank"><br>
          {{ csrf_field() }}
          <form action="sendEmail" method="POST">
          <div class="form-group">
          <br>
           <div class="w3-row-padding" style="margin:0 -16px 10px -16px">
-            <div class="w3-half">
-            Name <input type="text" class="form-control text-left" placeholder="Enter Name" name="name" ><br>
+          <div class="w3-fifth">
+
+          &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Name &nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<input type="text" class="form-control text-left" placeholder="Enter Name" name="name" required><br>
             </div>
-            <div class="w3-half">
-            Email *<input type="email" class="form-control text-left" placeholder="Enter Email" name="email" required><br>
+             <div class="w3-fifth"><br>
+             &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Email* &nbsp; &nbsp;<br> &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<input type="email" class="form-control text-left" placeholder="Enter Email" name="email" required><br>
             </div>
           </div>
-          Message <input class="w3-input w3-border" type="text" placeholder="Message"  name="message">
-          <button class="w3-button w3-black w3-section w3-left" type="submit">SEND</button>
+          <div class="w3-fifth">
+
+          &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  Message &nbsp; &nbsp;<br> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <textarea rows="4" cols="50" placeholder="Message" name="message"required>
+          </textarea>;<br>
+          &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<button class="w3-button w3-black w3-section w3-center" type="submit">SEND</button>
         </form>
       </div>
-    </div>
+
+  </div>
   </div>
 
-
-
-
-
-         </div>
-      </form>
-
-		</td>
-
-	</tr>
 </table>
+
+
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <!-- Bootstrap core JavaScript -->

@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Auth;
 class ContactUsController extends Controller
 {
     public function index(){
-;        return view('ContactUs.index');
+       return view('ContactUs.index');
     }
     public function store(Request $request)
     {
